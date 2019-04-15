@@ -1,0 +1,39 @@
+#uni{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#prepa{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#codigo{
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-top: 500px;
+}
+
+#titulo{
+	text-align: center;
+	font: arial;
+	font-size: 50px; 
+}
+
+#materia{
+	margin-top: -30px;
+	text-align: center;
+}
+
+#escuela{
+	text-align: center;
+	margin-top: -20px;
+}
+
+
+
+
+
