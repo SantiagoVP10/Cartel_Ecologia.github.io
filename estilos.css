@@ -33,7 +33,15 @@
 	margin-top: -20px;
 }
 
+table {
+  border: black 5px solid;
+  background: #F96242;
+  margin-top: 20px;
+}
 
+a{
+	color: black;
+}
 
 
 
