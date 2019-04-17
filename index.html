@@ -9,9 +9,10 @@
 	<meta name="keywords" content="ecologia"/>
 	<link rel="icon" type="image/jfif" href="icono.jfif" />
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css"
 </head>
 
-<body>
+<body background="fondo.jpg"> 
 
 <section>
 
@@ -71,12 +72,74 @@
 	</tr>
 </table>
 
+<section id="sec_intro">
+	<h1 id="introduccion">Introducción.</h1>
+	<p id="intro">
+	El proyecto fue realizado dentro de las instalaciones del plantel San Juan del Río de la escuela de bachilleres de la UAQ, este arenero del plantel es único en todo el estado y aunque está muy bien realizado tristemente palidecía ante las condiciones de los alrededores. Nos dimos a la tarea de ordenar, delimitar y limpiar los alrededores de esta zona.
+	</p>
+</section>
+
+<div class="contenedor">
+  <div class="texto-encima"> <p id="dificultades"><span><b>Dificultades.</b></span><br>Había mucho trabajo pesado por realizar, la gran cantidad de tierra que se tuvo que mover para dar paso a la jardinera tenía muchas piedras que dificultaban el avance. Nosotros no teníamos los permisos necesarios para disponer de las sillas y escritorios que aquí se encuentran, por lo que sólo se pudieron apartar y apilar mientras esperamos que sean retiradas. El terreno en general presentaba un gran descuido y se tuvo que realizar una gran labor extra de limpieza que no habíamos contemplado al principio.</p></div>
+</div>
+
+<div class="main">
+	<div class="slides">
+		<img src="1.jpg">
+		<img src="2.jpg">
+		<img src="3.jpg">
+		<img src="4.jpg">
+		<img src="5.jpg">
+		<img src="6.jpg">
+		<img src="7.jpg">
+		<img src="8.jpg">
+		<img src="9.jpg">
+		<img src="10.jpg">
+		<img src="12.jpg">
+		<img src="14.jpg">
+		<img src="15.jpg">
+		<img src="16.jpg">
+		<img src="17.jpg">
+		<img src="18.jpg">
+		<img src="19.jpg">
+		<img src="20.jpg">
+		<img src="21.jpg">
+		<img src="22.jpg">
+		<img src="23.jpg">
+		</div>
+</div>
+
+<script src="funcion_slide.js"></script>
+<script src="js/jquery.slides.js"></script>
+<script>
+    $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+  </script>
 
 
 
-
+	
 </body>
-
+	
 	<img id="codigo" src="codigo QR.png">
 
 </html>
