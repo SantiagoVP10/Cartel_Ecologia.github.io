@@ -54,7 +54,6 @@ a{
 }
 
 html{
-	border: black 5px solid;
 	background-color: #7fffd4;
 }
 
@@ -198,4 +197,9 @@ ul, ol{
 ul{
 	padding: 0px;
 	margin: 0px;
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1600px;
 }
