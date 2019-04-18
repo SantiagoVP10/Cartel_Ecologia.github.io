@@ -10,17 +10,21 @@
 	float: right;
 }
 
+#equipo{
+	width: 450px;
+	height: 370px;
+	float: left;
+	margin-top: -395px;
+}
+
 #codigo{
 	width: 200px;
 	height: 200px;
 	float: right;
-	margin-top: 1000px;
 }
 
 #titulo{
-	text-align: center;
-	font: arial;
-	font-size: 50px; 
+ margin-left: 350px;
 }
 
 #materia{
@@ -33,33 +37,30 @@
 	margin-top: -20px;
 }
 
-table {
-  
-  margin-top: 20px;
-  float: left;
-  margin-left: -5px;
-}
-
 a{
 	color: black;
 }
 
 #introduccion{
-	font: arial;
-	font-size: 35px; 
+	font-size: 30px;
+	font-family: cursive;
 }
 
 #intro{
-	font: arial;
-	font-size: 30px; 
+	font: sans-serif;
+	font-size: 25px; 
+	width: 920px;
+	margin-top: -25px;
 }
 
 html{
 	border: black 5px solid;
+	background-color: #7fffd4;
 }
 
 #sec_intro{
-	margin-left: 260px;
+	margin-left: 220px;
+	margin-top: -130px;
 }
 
 #cartel{
@@ -70,18 +71,22 @@ html{
 
 #dificultades{
 	width: 430px;
-	margin-top: 0;
+	margin-top: -10px;
 	float: left;
-	font: arial;
-	font-size: 30px; 
-
-	margin-right: 7px;
+	font: sans-serif;
+	font-size: 25px; 
+	margin-right: 50px;
 	margin-left: -5px;
 }
 
- span{
- 	font: arial;
- 	font-size: 35px; 
+#dif{
+	font-size: 30px;
+	font-family: cursive;
+}
+
+span{
+	font-size: 30px;
+	font-family: cursive;
  }
 
 .slides img{
@@ -124,3 +129,73 @@ html{
 	float: right;
 }
 
+#resumen{
+	font-size: 30px;
+	font-family: cursive;
+	margin-top: 80px;
+	margin-left: 475px;
+}
+#tex_resumen{
+	font: sans-serif;
+	font-size: 25px; 
+	width: 850px;
+	float: left;
+	margin-top: -180px;
+	margin-left: 475px;
+ }
+
+#porque{
+ 	font-size: 30px;
+	font-family: cursive;
+	margin-top: -105px;
+ }
+
+#tex_porque{
+ 	font: sans-serif;
+	font-size: 25px; 
+	width: 430px;
+	float: left;
+	margin-top: -20px;
+}
+
+.navegacion li a{
+	padding: 10px 103px;
+	background-color: #00c3af;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	font-family: sans-serif;
+}
+
+.navegacion li a:hover{
+	background: #fff;
+}
+
+.navegacion > li{
+	float: left;
+}
+
+.navegacion li ul{
+	display: none;
+	position: absolute;
+	max-width: 500px;
+}
+
+.navegacion li:hover > ul{
+	display: block;
+}
+
+#header{
+	margin: auto;
+	width: 1335px;
+	font-family: sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
