@@ -43,11 +43,11 @@ a{
 
 #introduccion{
 	font-size: 30px;
-	font-family: cursive;
+	font-family: sans-serif;
 }
 
 #intro{
-	font: sans-serif;
+	font-family: sans-serif;
 	font-size: 25px; 
 	width: 920px;
 	margin-top: -25px;
@@ -72,7 +72,7 @@ html{
 	width: 430px;
 	margin-top: -10px;
 	float: left;
-	font: sans-serif;
+	font-family: sans-serif;
 	font-size: 25px; 
 	margin-right: 50px;
 	margin-left: -5px;
@@ -80,12 +80,12 @@ html{
 
 #dif{
 	font-size: 30px;
-	font-family: cursive;
+	font-family: sans-serif;
 }
 
 span{
 	font-size: 30px;
-	font-family: cursive;
+	font-family: sans-serif;
  }
 
 .slides img{
@@ -130,12 +130,12 @@ span{
 
 #resumen{
 	font-size: 30px;
-	font-family: cursive;
+	font-family: sans-serif;
 	margin-top: 80px;
 	margin-left: 475px;
 }
 #tex_resumen{
-	font: sans-serif;
+	font-family: sans-serif;
 	font-size: 25px; 
 	width: 850px;
 	float: left;
@@ -145,12 +145,12 @@ span{
 
 #porque{
  	font-size: 30px;
-	font-family: cursive;
+	font-family: sans-serif;
 	margin-top: -105px;
  }
 
 #tex_porque{
- 	font: sans-serif;
+ 	font-family: sans-serif;
 	font-size: 25px; 
 	width: 430px;
 	float: left;
