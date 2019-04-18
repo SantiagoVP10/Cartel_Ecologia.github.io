@@ -10,21 +10,41 @@
 	float: right;
 }
 
-#equipo{
-	width: 450px;
-	height: 370px;
-	float: left;
-	margin-top: -395px;
-}
-
-#codigo{
-	width: 200px;
-	height: 200px;
-	float: right;
-}
-
 #titulo{
  margin-left: 350px;
+}
+
+.navegacion li a{
+	padding: 10px 103px;
+	background-color: #00c3af;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	font-family: sans-serif;
+}
+
+.navegacion li a:hover{
+	background: #fff;
+}
+
+.navegacion > li{
+	float: left;
+}
+
+.navegacion li ul{
+	display: none;
+	position: absolute;
+	max-width: 50%;
+}
+
+.navegacion li:hover > ul{
+	display: block;
+}
+
+#header{
+	margin: auto;
+	max-width: 100%;
+	font-family: sans-serif;
 }
 
 #materia{
@@ -157,37 +177,10 @@ span{
 	margin-top: -20px;
 }
 
-.navegacion li a{
-	padding: 10px 103px;
-	background-color: #00c3af;
-	color: #000;
-	text-decoration: none;
-	display: block;
-	font-family: sans-serif;
-}
-
-.navegacion li a:hover{
-	background: #fff;
-}
-
-.navegacion > li{
-	float: left;
-}
-
-.navegacion li ul{
-	display: none;
-	position: absolute;
-	max-width: 500px;
-}
-
-.navegacion li:hover > ul{
-	display: block;
-}
-
-#header{
-	margin: auto;
-	width: 1335px;
-	font-family: sans-serif;
+#codigo{
+	width: 200px;
+	height: 200px;
+	float: right;
 }
 
 ul, ol{
@@ -199,14 +192,9 @@ ul{
 	margin: 0px;
 }
 
-@media screen and (min-width: 480px) {
-
-}
-
-@media screen and (min-width: 760px) {
-
-}
-
-@media screen and (min-width: 950px) {
-	
+#equipo{
+	width: 450px;
+	height: 370px;
+	float: left;
+	margin-top: -395px;
 }
