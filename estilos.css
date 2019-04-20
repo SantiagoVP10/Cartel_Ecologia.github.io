@@ -89,13 +89,13 @@ a{
 }
 
 #introduccion{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: sans-serif;
 }
 
 #intro{
 	font-family: sans-serif;
-	font-size: 25px; 
+	font-size: 20px; 
 	width: 100%;
 }
 
@@ -108,12 +108,12 @@ a{
 	margin-top: -10px;
 	float: left;
 	font-family: sans-serif;
-	font-size: 25px; 
+	font-size: 20px; 
 	margin-right: 50px;
 }
 
 #dif{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: sans-serif;
 }
 
@@ -178,23 +178,23 @@ body{
 }
 
 #resumen{
-	font-size: 30px;
+	font-size: 25px;
 	font-family: sans-serif;
 }
 
 #tex_resumen{
 	font-family: sans-serif;
-	font-size: 25px;
+	font-size: 20px;
  }
 
 #porque{
- 	font-size: 30px;
+ 	font-size: 25px;
 	font-family: sans-serif;
  }
 
 #tex_porque{
  	font-family: sans-serif;
-	font-size: 25px; 
+	font-size: 20px; 
 	width: 70%;
 }
 
