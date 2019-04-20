@@ -10,37 +10,68 @@
 	float: right;
 }
 
-.navegacion li a{
-	padding: 10px 103px;
-	background-color: #00c3af;
-	color: #000;
-	text-decoration: none;
-	display: block;
-	font-family: sans-serif;
+#seccion1{
+	width: 100%;
 }
 
-.navegacion li a:hover{
-	background: #fff;
-}
-
-.navegacion > li{
-	float: left;
-}
-
-.navegacion li ul{
+.menu_bar{
 	display: none;
-	position: absolute;
-	max-width: 50%;
 }
 
-.navegacion li:hover > ul{
+header{
+	width: 100%;
+}
+
+header nav{
+	background: #00c3af;
+	z-index: 1000;
+	max-width: 1000px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	display: inline-block;
+	position: relative;
+}
+
+header nav ul li:hover{
+	background: gray;
+}
+
+header nav ul li a{
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+header nav ul li span a{
+	margin-right: 10px;
+}
+
+header nav ul li .sub{
+	display: none;
+	background: #00c3af;
+	position: absolute;
+	width: 300%;
+	z-index: 1000;
+}
+
+header nav ul li:hover .sub{
 	display: block;
 }
 
-#header{
-	margin: auto;
-	max-width: 100%;
-	font-family: sans-serif;
+header nav ul li .sub li a{
+	display: block;
+}
+
+header nav ul li .sub li a {
+	display: block;
 }
 
 #materia{
@@ -65,33 +96,20 @@ a{
 #intro{
 	font-family: sans-serif;
 	font-size: 25px; 
-	width: 920px;
-	margin-top: -25px;
-}
-
-html{
-	background-color: #7fffd4;
+	width: 100%;
 }
 
 #sec_intro{
-	margin-left: 220px;
-	margin-top: -130px;
-}
-
-#cartel{
-	width: 600px;
-	height: 800px;
-	background: "cartel.jpg"
+	display: inline-block;
 }
 
 #dificultades{
-	width: 430px;
+	width: 100%;
 	margin-top: -10px;
 	float: left;
 	font-family: sans-serif;
 	font-size: 25px; 
 	margin-right: 50px;
-	margin-left: -5px;
 }
 
 #dif{
@@ -99,19 +117,29 @@ html{
 	font-family: sans-serif;
 }
 
-span{
-	font-size: 30px;
-	font-family: sans-serif;
- }
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #7fffd4;
+}
+
+.slides{
+	width: 100%;
+}
 
 .slides img{
-	height: 535px;
-	width: 800px;
+	width: 100%;
+	height: 100%;
 }
 
 .slidesjs-pagination{
-	margin-top: 0px;
-	background: gray;
+	background: #00c3af;
 	list-style: none;
 	overflow: hidden;
 }
@@ -122,75 +150,113 @@ span{
 
 .slidesjs-pagination li a{
 	display: block;
-	padding: 9px 20px;
-	color: #fff;
+	padding: 10px 20px;
+	color: #000;
 	text-decoration: none;
 }
 
 .slidesjs-pagination li a:hover{
-	background: #000;
+	background: #fff;
 }
 
 .slides .active{
-	background: #000;
+	background: #fff;
 }
 
 .slidesjs-navigation{
-	background: gray;
-	color: #fff;
+	background: #00c3af;
+	color: #000;
 	text-decoration: none;
 	display: inline-block;
-	padding: 30px 20px;
+	padding: 12px 20px;
 	float: right;
+}
+
+#seccion7{
+	float: left;
+	width: 100%;
 }
 
 #resumen{
 	font-size: 30px;
 	font-family: sans-serif;
-	margin-top: 80px;
-	margin-left: 475px;
 }
+
 #tex_resumen{
 	font-family: sans-serif;
-	font-size: 25px; 
-	width: 850px;
-	float: left;
-	margin-top: -180px;
-	margin-left: 475px;
+	font-size: 25px;
  }
 
 #porque{
  	font-size: 30px;
 	font-family: sans-serif;
-	margin-top: -105px;
  }
 
 #tex_porque{
  	font-family: sans-serif;
 	font-size: 25px; 
-	width: 430px;
-	float: left;
-	margin-top: -20px;
+	width: 70%;
 }
 
 #codigo{
-	width: 200px;
-	height: 200px;
-	float: right;
-}
-
-ul, ol{
-	list-style: none;
-}
-
-ul{
-	padding: 0px;
-	margin: 0px;
+	width: 25%;
+	height: 25%;
+	align-content: right;
 }
 
 #equipo{
-	width: 450px;
-	height: 370px;
-	float: left;
-	margin-top: -395px;
+	width: 30%;
+}
+
+@media screen and (max-width: 800px){
+	body{
+		padding-top: 80px;
+	}
+	
+	.menu_bar{
+		display: block;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		background: #00c3af;
+	}
+
+	.menu_bar .menu{
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	.menu_bar span{
+		float: right;
+		font-size: 40px;
+	}
+
+	header nav{
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right: 100%;
+		margin: 0;
+		overflow: scroll;
+
+	}
+
+	header nav ul li{
+		display: block;
+		border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li a{
+		display: block;
+	}
+
+	header nav ul li .sub{
+		width: 100%;
+		position: relative;
+	}
 }
